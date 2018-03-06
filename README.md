@@ -31,7 +31,7 @@ found it here ```npm install --save @types/howler```
 ```
 let sound = new Howl({
       src: ['http://server8.mp3quran.net/ahmad_huth/001.mp3'],
-      html5 :true // for sporting
+      html5 :true // A live stream can only be played through HTML5 Audio.
     });
     sound.play();
     
